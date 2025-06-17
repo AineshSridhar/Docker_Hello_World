@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials')
-        IMAGE_NAME = "yourusername/basic-docker-jenkins"
+        IMAGE_NAME = "aineshsridhar/basic-docker-jenkins"
     }
     stages {
         stage('Build Docker Image') {
